@@ -1,0 +1,24 @@
+git init
+git status
+git bra
+git branch -m master main
+git status
+git add server.py
+git add server.py
+git add notes.md
+git add temp.cache
+git add .
+git commit -m "1st commit from main"
+git branch feature-auth
+git checkout add-function
+git checkout feature-auth
+git commit -m "1st commit from feature-auth"
+git add temp.cache
+git commit -m "1st commit from feature-auth"
+git checkout main
+git add temp.cache
+git commit -m "2nd commit from main"
+git merge feature-auth
+git remote add origin https://github.com/x00226717/ca1ex2-repo.git
+git push -u origin main
+git pull origin main
